@@ -273,9 +273,6 @@ plt.show()
 - `dpi=100` - Resolution of saved image
 - `bbox_inches='tight'` - Removes extra whitespace
 
-**Resulting Image:**
-![Correlation Heatmap All Features](heatmap_all_features.png)
-
 **Heatmap Interpretation:**
 - **Red cells (close to +1)** - Strong positive correlation between features
 - **Blue cells (close to -1)** - Strong negative correlation
@@ -296,8 +293,6 @@ plt.savefig('heatmap_group1_features.png', dpi=100, bbox_inches='tight')
 plt.show()
 ```
 
-![Correlation Heatmap Group 1](heatmap_group1_features.png)
-
 **G2 Heatmap (Features 15-30):**
 ```python
 plt.figure(figsize=(23,23))
@@ -308,8 +303,6 @@ plt.savefig('heatmap_group2_features.png', dpi=100, bbox_inches='tight')
 plt.show()
 ```
 
-![Correlation Heatmap Group 2](heatmap_group2_features.png)
-
 **G3 Heatmap (Features 30-46):**
 ```python
 plt.figure(figsize=(23,23))
@@ -319,8 +312,6 @@ plt.tight_layout()
 plt.savefig('heatmap_group3_features.png', dpi=100, bbox_inches='tight')
 plt.show()
 ```
-
-![Correlation Heatmap Group 3](heatmap_group3_features.png)
 
 **Interpretation:**
 - **Red cells (close to +1)** - Strong positive correlation
